@@ -5,7 +5,7 @@ import { createClient } from '@supabase/supabase-js';
 const SUPABASE_URL = process.env.REACT_APP_SUPABASE_URL || 'https://fpkqvnmzshyuhaxdxwss.supabase.co';
 const SUPABASE_ANON_KEY = process.env.REACT_APP_SUPABASE_ANON_KEY || 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZwa3F2bm16c2h5dWhheGR4d3NzIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzY2MzEwMDEsImV4cCI6MjA5MjIwNzAwMX0.NqCJrXP7JWCXjdI9h0hhqcznQB7Z-0qwEVdZ4KkxzdA';
 
-export const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
 // ─── Database helpers ────────────────────────────────────────────────
 
