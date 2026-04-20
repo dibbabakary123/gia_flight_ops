@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback } from 'react';
-import { supabase, saveFlightRecord, loadRecentRecords } from './lib/supabase';
+import { saveFlightRecord, loadRecentRecords } from './lib/supabase';
 import {
   CHECK_IN_ITEMS, GATE_ITEMS, EVAL_ROLES, STAFF_ROLES,
   emptyCheckIn, emptyGate, emptyEvals
